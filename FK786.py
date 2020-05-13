@@ -412,8 +412,8 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA.TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
-    print "  \033[1;93m«---•◈•---Developed By FARIYA-KHAN•◈•---»" #Dev:fari_fariya	
-    print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FK786.py)↩\033[1;92m....'
+        print "  \033[1;93m«---•◈•---Developed By FARIYA-KHAN•◈•---»" #Dev:fari_fariya	
+        print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FK786.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
 	print """
     \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
