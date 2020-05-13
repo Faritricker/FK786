@@ -82,7 +82,7 @@ logo = """
 
 
 
-jalan("\033[1;96m♤͜͡♤════✷FARIYA KHAN")
+jalan("\033[1;96m♤͜͡♤════✷FARIYA KHAN OFFICIAL")
 jalan("\033[1;96m♤͜͡♤════✷ ASALM O ALAIKUM MOST WELCOME") 
 jalan("\033[1;96m♤͜͡♤════✷ SPECIALLY ALL COUNTRIES IDS KE LEYE COMMANDS") 
 jalan("\033[1;96m♤͜͡♤════✷ CHALO AB CLONING KI TARAF CHALTE HEN")
