@@ -412,18 +412,20 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By FARIYA-KHAN--•◈•---»" #Dev:love_harry
-	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FK786.py)↩\033[1;92m....'
+	print "  \033[1;93m«---•◈•---Developed By Haroon-Harry--•◈•---»" #Dev:love_harry
+	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jaan.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
 	print """
-    \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
-    \033[1;95m║\033[1;92mCREATOR║ \033[1;96m♤͜͡♤ FARIYA KHAN
-    \033[1;95m║\033[1;92mFACEBOK║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
-    \033[1;95m║\033[1;92mSUPPORT║ \033[1;96m♤͜͡♤ MALIK HASSAN ♤͜͡♤ MAHAM BUTT
-    \033[1;95m║\033[1;92mCLONE  ║ \033[1;96m♤͜͡  ALL COUNTRIES IDS CLONE HONGYE.
-    \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝""	
-	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
+\033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
+\033[1;95m║\033[1;92mCREATOR║ \033[1;96m♤͜͡♤ FARIYA KHAN
+\033[1;95m║\033[1;92mFACEBOK║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
+\033[1;95m║\033[1;92mSUPPORT║ \033[1;96m♤͜͡♤ MALIK HASSAN ♤͜͡♤ MAHAM BUTT
+\033[1;95m║\033[1;92mCLONE  ║ \033[1;96m♤͜͡  ALL COUNTRIES IDS CLONE HONGYE.
+\033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝"""	
+	
+    raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
 	menu()
 
 if __name__ == '__main__':
 	login()
+	
