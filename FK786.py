@@ -296,7 +296,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
+		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
 		jalan('\033[1;93mGetting IDs \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -306,7 +306,8 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;92m[•◈•] \033[1;92mEnter ID\033[1;93m: \033[1;95m")
-		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA.TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"		try:
+		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA.TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
+		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
 			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
